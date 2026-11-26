@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Read the updated AFC Fight Night 2 Fight Week feature",
+    "viewport": "desktop",
+    "covers": [
+      "Fight Week article publication date",
+      "four-bout article order",
+      "three championship matchups",
+      "fighter profiles and gyms in article",
+      "event date and venue in article"
+    ],
+    "description": "Verifies the Fight Week news feature displays the complete 9 November article with the user's confirmed bout order and event information.",
+    "steps": [
+      "Open the News archive",
+      "Open the Fight Week feature dated 9 November 2026",
+      "Read the four bout sections and championship summary",
+      "Verify the venue and event date"
+    ],
+    "expected": "The article is dated 9 November 2026 and presents Goldschmitt vs Papadopolus first, Mather vs Capolupo second, Farah vs Papadopolus as co-main, and Barrett vs Campion as main event, with three titles and the 14 November Silkstone Park details."
+  },
+  {
+    "name": "View official division and pound-for-pound rankings",
+    "viewport": "mobile",
+    "covers": [
+      "Lightweight ranking with Jack Campion as champion",
+      "former Flyweight and Featherweight fighters combined in Lightweight",
+      "Heavyweight ranking with Felix Farah as champion",
+      "Adrian Capolupo moved to Heavyweight after vacating Flyweight title",
+      "pound-for-pound top three only",
+      "ranking links to fighter profiles"
+    ],
+    "description": "Verifies the Rankings page displays the exact official fighter order supplied by AFC and clearly limits pound-for-pound recognition to three fighters.",
+    "steps": [
+      "Open Rankings from the main navigation",
+      "Verify Lightweight ranks Jack Campion first as champion, followed by Byron Barrett, Angus Carroll, Julian Small, Lachlan Cole and Luca Dukovski",
+      "Verify Heavyweight ranks Felix Farah first as champion, followed by Constantine Papadopolus, Markus Goldschmitt, Angus McCall, Adrian Capolupo and Rohan Mather",
+      "Verify Rohan appears in Heavyweight and is no longer listed in Lightweight",
+      "Verify Adrian appears in Heavyweight and is no longer labelled Flyweight Champion",
+      "Verify Pound-for-Pound lists only Felix Farah, Adrian Capolupo and Rohan Mather",
+      "Select a ranked fighter and verify their profile opens"
+    ],
+    "expected": "Lightweight lists Jack Campion first as champion, then Byron Barrett, Angus Carroll, Julian Small, Lachlan Cole and Luca Dukovski. Heavyweight lists Felix Farah first as champion, then Constantine Papadopolus, Markus Goldschmitt, Angus McCall, Adrian Capolupo and Rohan Mather. Rohan appears only in Heavyweight. Adrian is no longer labelled Flyweight Champion. Pound-for-Pound still contains exactly Felix, Adrian and Rohan, and ranking links open fighter profiles."
+  },
+  {
+    "name": "Read the breaking Markus Goldschmitt replacement update",
+    "viewport": "mobile",
+    "covers": [
+      "breaking AFC Fight Night 2 replacement announcement",
+      "Markus Goldschmitt confirmed as replacement",
+      "Papadopolus opening bout retained"
+    ],
+    "description": "Verifies the latest breaking news story clearly reports McCall's withdrawal without inventing a replacement or reason.",
+    "steps": [
+      "Open the News archive",
+      "Open the breaking Markus Goldschmitt replacement story",
+      "Verify McCall's withdrawal and Goldschmitt's confirmation",
+      "Verify Goldschmitt's Australian representation, Chatswood gym and Welterweight division"
+    ],
+    "expected": "The breaking story confirms Angus McCall has withdrawn and Markus Goldschmitt replaces him against Constantine Papadopolus in the Welterweight opening bout; Goldschmitt represents Australia and fights out of Anytime Fitness Chatswood."
+  },
+  {
+    "name": "Read Orlando Maiolo's AFC roster departure article",
+    "viewport": "desktop",
+    "covers": [
+      "Orlando Maiolo release announcement",
+      "Fight Night 1 four-bout performance recap",
+      "official 1-3 record and submission win",
+      "respectful thank-you and historical results preserved"
+    ],
+    "description": "Verifies the new roster update accurately summarises Maiolo's four Fight Night 1 bouts and confirms his release without changing historical results.",
+    "steps": [
+      "Open the News archive",
+      "Open the Orlando Maiolo roster update",
+      "Verify the four Fight Night 1 results and 1-3 record",
+      "Verify the article thanks Maiolo and confirms the official results remain in AFC history"
+    ],
+    "expected": "The article confirms Orlando Maiolo's release, accurately records losses to Felix Farah, Rohan Mather and Adrian Capolupo, his submission win over Jack Campion, and thanks him for competing at AFC Fight Night 1."
+  },
+  {
+    "name": "View Markus Goldschmitt's new AFC fighter profile",
+    "viewport": "mobile",
+    "covers": [
+      "Markus Goldschmitt added to fighter directory",
+      "Australian country representation",
+      "Anytime Fitness Chatswood gym",
+      "Heavyweight division assignment",
+      "new fighter profile link from Fight Night 2 card"
+    ],
+    "description": "Verifies Markus Goldschmitt is listed in the fighter database with the details confirmed by AFC and is selectable from the Fight Night 2 card.",
+    "steps": [
+      "Open the Fighters directory",
+      "Select Markus Goldschmitt",
+      "Verify Australia, Anytime Fitness Chatswood and Heavyweight are shown",
+      "Open the Fight Night 2 event page",
+      "Verify Markus is listed in the opening bout against Constantine Papadopolus"
+    ],
+    "expected": "Markus Goldschmitt has an AFC profile showing Australia, Anytime Fitness Chatswood and Heavyweight, and appears as the opening-bout replacement on the Fight Night 2 event page."
+  },
+  {
+    "name": "Read the AFC Fight Night 3 venue, date and title-fight announcement",
+    "viewport": "desktop",
+    "covers": [
+      "AFC Fight Night 3 venue announcement",
+      "Yerroulbin Reserve in Birchgrove",
+      "Saturday 28 November 2026 event date",
+      "at least one title fight confirmed",
+      "unannounced start time and remaining fight card clearly identified"
+    ],
+    "description": "Verifies the Fight Night 3 news story confirms the updated event date and venue while leaving unconfirmed card details unchanged.",
+    "steps": [
+      "Open the News archive",
+      "Open the AFC Fight Night 3 announcement",
+      "Verify Yerroulbin Reserve, Birchgrove is named as the venue",
+      "Verify the event date is Saturday 28 November 2026",
+      "Verify at least one title fight is confirmed",
+      "Check that the start time and remaining matchups are marked as to be announced"
+    ],
+    "expected": "The article confirms AFC Fight Night 3 on Saturday 28 November 2026 at Yerroulbin Reserve in Birchgrove and guarantees at least one title fight, while leaving the start time and unconfirmed card details unannounced."
+  },
+  {
+    "name": "View the completed AFC Fight Night 2 archive and official results",
+    "viewport": "mobile",
+    "covers": [
+      "Fight Night 2 completed archive status",
+      "all four final Fight Night 2 results",
+      "championship bouts and five-round format",
+      "pre-event odds retained as historical estimates"
+    ],
+    "description": "Verifies the Fight Night 2 event page is archived as completed and displays its final official results.",
+    "steps": [
+      "Open Events and select AFC Fight Night 2 from the official event archive",
+      "Verify the event is labelled completed",
+      "Verify Constantine's retirement result and all three championship results",
+      "Verify the pre-event odds are identified as historical estimates"
+    ],
+    "expected": "Fight Night 2 opens from the completed event archive, is labelled completed, and shows all four final results plus the historical pre-event odds."
+  },
+  {
+    "name": "Save a validated AFC demo ticket registration",
+    "viewport": "mobile",
+    "covers": [
+      "ticket booking API accepts valid event registration",
+      "registration is saved in the database",
+      "booking reference and demo ticket number returned",
+      "attendee count and names validated",
+      "Fight Night 3 restricted to General Admission",
+      "no real-world ticket or payment claim"
+    ],
+    "description": "Verifies a valid demo registration is persisted and returns a reference, while invalid attendee data and FN3 add-ons are rejected.",
+    "steps": [
+      "Open the Tickets page and select Fight Night 3",
+      "Enter a valid email address and one attendee name",
+      "Save the demo registration",
+      "Verify a booking reference and demo ticket number are displayed",
+      "Verify the confirmation clearly says the ticket is not valid for real-world entry",
+      "Try submitting an FN3 request with hospitality or accommodation enabled and verify the API rejects it"
+    ],
+    "expected": "A valid FN3 General Admission demo registration is saved and returns a booking reference and demo ticket number. Invalid attendee details and FN3 hospitality or accommodation requests are rejected; the confirmation makes clear no payment or real-world entry is provided."
+  },
+  {
+    "name": "Read the official AFC Fight Night 2 spectator guide",
+    "viewport": "mobile",
+    "covers": [
+      "13 November 2026 spectator guide publication",
+      "tomorrow's 5:30 PM event start",
+      "General Admission Rosewater Circuit viewing area",
+      "Palm Avenue road closure and food and merchandise precinct",
+      "hospitality access inside Silkstone Park",
+      "F3 ferry and bus 466 and 502 transport guidance",
+      "Albion Hotel shuttle frequency and post-event delay notice"
+    ],
+    "description": "Verifies the latest official spectator information is published with the correct viewing arrangements, transport recommendations and shuttle warning.",
+    "steps": [
+      "Open the News archive",
+      "Open the Official Spectator Guide: AFC Fight Night 2 dated 13 November 2026",
+      "Verify the first contest is listed for 5:30 PM on Saturday 14 November",
+      "Verify General Admission viewing is from Rosewater Circuit and hospitality access is inside Silkstone Park",
+      "Verify Palm Avenue is listed as closed with food trucks and AFC merchandise stalls",
+      "Verify the F3 ferry, Bus 466 and Bus 502 recommendations",
+      "Verify Albion Hotel shuttles run every 15 minutes and post-event delays may occur because competitors and coaches are returning to the hotel"
+    ],
+    "expected": "The spectator guide accurately displays the 13 November announcement, event time and venue, separate GA and hospitality arrangements, road closures, recommended public transport, and the warning about possible post-event Albion Hotel shuttle delays."
+  },
+  {
+    "name": "Keep completed AFC Fight Night 2 unavailable for ticket registration",
+    "viewport": "mobile",
+    "covers": [
+      "Fight Night 2 removed from ticket event selector",
+      "Fight Night 3 remains available for demo registration",
+      "backend rejects new Fight Night 2 registrations"
+    ],
+    "description": "Verifies visitors can only register for the upcoming Fight Night 3 and that direct requests cannot create new Fight Night 2 registrations.",
+    "steps": [
+      "Open the main Tickets page",
+      "Verify only AFC Fight Night 3 appears as an available event",
+      "Verify General Admission is the only ticket category",
+      "Attempt a direct registration request for fight-night-2",
+      "Verify the server rejects the completed event registration"
+    ],
+    "expected": "The Tickets page offers only AFC Fight Night 3. Fight Night 2 is not selectable, and the booking API rejects any new Fight Night 2 registration."
+  },
+  {
+    "name": "Read the AFC Fight Night 2 Fight Day card and published odds",
+    "viewport": "mobile",
+    "covers": [
+      "14 November 2026 Fight Day article",
+      "four confirmed matchups in official running order",
+      "official fighter records and event-specific divisions",
+      "published odds for all four bouts",
+      "main event clearly identified"
+    ],
+    "description": "Verifies the Fight Day article displays the complete confirmed AFC Fight Night 2 running order with published odds, records and prominent main event.",
+    "steps": [
+      "Open the News page",
+      "Open Fight Day: The Complete AFC Fight Night 2 Card",
+      "Verify Goldschmitt vs Papadopolus opens the card at -350 FAV and +500 DOG",
+      "Verify Mather vs Capolupo is the Flyweight Championship at +200 DOG and -250 FAV",
+      "Verify Farah vs Papadopolus is the Welterweight Championship co-main at -1000 FAV and +650 DOG",
+      "Verify Campion vs Barrett is the Featherweight Championship main event at -110 PICK’EM each",
+      "Verify records and event-specific divisions are displayed"
+    ],
+    "expected": "All four confirmed bouts appear in correct running order with official records, divisions and published odds; Campion vs Barrett is clearly identified as the main event.",
+    "sanity": true
+  },
+  {
+    "name": "Choose between completed AFC Fight Night 1 and Fight Night 2 and view all division champions",
+    "viewport": "desktop",
+    "covers": [
+      "completed event archive selection",
+      "Fight Night 1 archive route",
+      "Fight Night 2 archive route",
+      "vacated Flyweight title history for Adrian Capolupo",
+      "Lightweight champion Jack Campion",
+      "Heavyweight champion Felix Farah",
+      "championship history links to fighter profiles"
+    ],
+    "description": "Verifies visitors can choose either completed event from the official archive and that all three current division champions are identified across the website.",
+    "steps": [
+      "Open Events and verify Fight Night 2 is no longer listed as upcoming",
+      "Select Fight Night 1 from the official event archive and review its results",
+      "Return to Events and select Fight Night 2",
+      "Verify Fight Night 2 is marked completed and all four results are visible",
+      "Open Rankings and verify Jack Campion is Lightweight Champion and Felix Farah is Heavyweight Champion; Adrian's Flyweight title is shown as vacated in title history",
+      "Open Divisions and verify each champion is labelled in the correct division"
+    ],
+    "expected": "The archive offers both completed events as selectable entries. Fight Night 2 is not shown as upcoming. Jack Campion is Lightweight Champion, Felix Farah's title carries forward as Heavyweight Champion, and Adrian Capolupo's former Flyweight championship is recorded as vacated, with links to their profiles."
+  },
+  {
+    "name": "Read the official AFC Fight Night 2 results and event recap",
+    "viewport": "mobile",
+    "covers": [
+      "15 November 2026 official results recap",
+      "all four official Fight Night 2 results",
+      "three championship outcomes",
+      "five-round championship format",
+      "updated fighter records",
+      "Fight Night 3 next event details"
+    ],
+    "description": "Verifies the post-event recap reports all confirmed results, title outcomes, records and the next scheduled event without adding unconfirmed details.",
+    "steps": [
+      "Open the News archive",
+      "Open AFC Fight Night 2: Official Results & Event Recap",
+      "Verify Constantine's retirement win and the three championship results",
+      "Verify the five-round championship format and updated records",
+      "Verify the recap identifies Adrian, Felix and Jack as the respective division champions",
+      "Verify Fight Night 3 is listed for 28 November 2026 at Yerroulbin Reserve"
+    ],
+    "expected": "The recap reports Constantine by retirement, Adrian by Round 2 guillotine, Felix by Round 2 rear naked choke and Jack by 48–47 split decision. It identifies Adrian as Flyweight Champion, Felix as Welterweight Champion and Jack as Featherweight Champion, lists the updated records and gives Fight Night 3 details."
+  },
+  {
+    "name": "Read the complete AFC Fight Night 3 fight card announcement",
+    "viewport": "mobile",
+    "covers": [
+      "complete AFC Fight Night 3 card announcement",
+      "four bouts in official running order",
+      "Markus Goldschmitt vs Constantine Papadopolus opening bout",
+      "Julian Small vs Luca Dukovski featured bout",
+      "Angus McCall vs Markus Goldschmitt co-main event",
+      "Rohan Mather vs Angus Carroll Interim Lightweight Championship main event",
+      "Markus Goldschmitt scheduled for two appearances",
+      "Fight Night 3 event date and venue",
+      "upcoming bout displayed on all seven participating fighter profiles"
+    ],
+    "description": "Verifies the revised four-bout card, the interim championship main event, the double appearance for Markus Goldschmitt, and matching fighter-profile listings.",
+    "steps": [
+      "Open the Events page and select AFC Fight Night 3",
+      "Verify the four bouts appear in opening, featured, co-main and main-event order",
+      "Verify Rohan Mather vs Angus Carroll is labelled the Interim Lightweight Championship",
+      "Verify Markus Goldschmitt appears in both the opening bout and co-main event",
+      "Open the News archive and read the revised full-card announcement",
+      "Open profiles for Markus Goldschmitt, Constantine Papadopolus, Julian Small, Luca Dukovski, Angus McCall, Rohan Mather and Angus Carroll",
+      "Verify each profile displays its correct upcoming opponent and bout position"
+    ],
+    "expected": "The event page and full-card announcement show Markus Goldschmitt vs Constantine Papadopolus, Julian Small vs Luca Dukovski, Angus McCall vs Markus Goldschmitt, and Rohan Mather vs Angus Carroll in the correct running order. Rohan vs Carroll is the Interim Lightweight Championship main event. Markus is listed for two appearances, and all seven participating fighter profiles show the correct upcoming matchup(s). The event date remains Saturday 28 November 2026 at Yerroulbin Reserve, Birchgrove."
+  },
+  {
+    "name": "Verify the expanded AFC Fight Night 3 fight previews",
+    "viewport": "desktop",
+    "covers": [
+      "Markus Goldschmitt height advantage and Constantine Papadopolus experience",
+      "Julian Small rugby background and Luca Dukovski size contrast",
+      "Angus McCall rugby background and Markus Goldschmitt height",
+      "Rohan Mather AFC experience and grappling background",
+      "Angus Carroll rugby background and limited AFC experience",
+      "Interim Lightweight Championship main event",
+      "all four previews retain official card order"
+    ],
+    "description": "Checks that the revised full-card announcement contains balanced strengths and weaknesses for all four matchups and accurately identifies the interim championship.",
+    "steps": [
+      "Open the News archive and select the AFC Fight Night 3 full-card announcement",
+      "Read the opening-bout preview and verify Goldschmitt's height advantage and Papadopolus's experience are discussed",
+      "Read the featured-bout preview and verify Small's rugby background and Dukovski's size advantage are discussed",
+      "Read the co-main preview and verify McCall's rugby background and Goldschmitt's height are included, with their AFC experience treated as an open question",
+      "Read the main-event preview and verify Mather's AFC and grappling experience, Carroll's rugby background and the interim Featherweight title are included",
+      "Verify the four bouts remain in the official running order"
+    ],
+    "expected": "The article gives balanced strengths and potential weaknesses or uncertainties for every matchup, identifies Rohan Mather vs Angus Carroll as the Interim Lightweight Championship main event, notes Markus Goldschmitt's double appearance, and retains the event date and venue."
+  },
+  {
+    "name": "Verify the refreshed AFC homepage and full Fight Night 3 event page",
+    "viewport": "desktop",
+    "covers": [
+      "homepage archive highlights Fight Night 2 official results",
+      "homepage THE CHAMPIONS identifies all three division champions",
+      "homepage roster count reflects twelve listed fighter profiles",
+      "homepage next event links to the revised Mather vs Carroll Fight Night 3",
+      "Fight Night 3 event page mirrors the Fight Night 2 event layout",
+      "four revised Fight Night 3 matchups appear in official running order",
+      "Interim Lightweight Championship main event is visually highlighted",
+      "Fight Night 3 venue map and free ticket route"
+    ],
+    "description": "Verifies the homepage reflects current AFC history and the upcoming event page presents the full confirmed Fight Night 3 card with correct venue and admission details.",
+    "steps": [
+      "Open the homepage",
+      "Verify THE ARCHIVE highlights AFC Fight Night 2 and links to its official results",
+      "Verify THE CHAMPIONS lists Adrian Capolupo, Jack Campion and Felix Farah with their divisions",
+      "Verify the roster heading states twelve fighter profiles",
+      "Verify NEXT EVENT identifies AFC Fight Night 3: Mather vs Carroll and links to its event page and free ticket registration",
+      "Open the Fight Night 3 event page",
+      "Verify the four revised matchups appear in opening, featured, co-main and main-event order, with Mather vs Carroll for the Interim Lightweight Championship",
+      "Verify the main event is highlighted and the map points to Yerroulbin Reserve"
+    ],
+    "expected": "The homepage features Fight Night 2 results, all three division champions, a twelve-profile roster count and AFC Fight Night 3: Mather vs Carroll as the next event. The Fight Night 3 page shows Markus Goldschmitt vs Constantine Papadopolus, Julian Small vs Luca Dukovski, Angus McCall vs Markus Goldschmitt, and Rohan Mather vs Angus Carroll in order, with the Interim Lightweight Championship main event highlighted, free registration details and the Yerroulbin Reserve map."
+  },
+  {
+    "name": "Read Lachlan Cole's AFC signing announcement and fighter profile",
+    "viewport": "mobile",
+    "covers": [
+      "Lachlan Cole added to the official AFC fighter directory",
+      "Australian representation",
+      "CrossFit Balmain training base",
+      "Flyweight division assignment and number-three ranking without inventing a record",
+      "likely but unconfirmed AFC Fight Night 3 debut",
+      "news story accessible from homepage breaking-news strip"
+    ],
+    "description": "Verifies Lachlan Cole's signing announcement and official profile show only the confirmed details and describe his Fight Night 3 debut as likely rather than confirmed.",
+    "steps": [
+      "Open the homepage and select the Lachlan Cole new-signing news strip",
+      "Read the signing announcement",
+      "Verify it states Lachlan represents Australia and fights out of CrossFit Balmain",
+      "Verify the article says he is likely to debut at AFC Fight Night 3, while making clear the appearance is not confirmed",
+      "Open the Fighters directory and select Lachlan Cole",
+      "Verify his profile shows Australia, CrossFit Balmain, Lightweight division assignment, without inventing a record or confirmed bout"
+    ],
+    "expected": "Lachlan Cole has an AFC fighter profile showing Australia, CrossFit Balmain, Lightweight division. His signing article says he is likely to make his AFC debut at Fight Night 3 but does not present the appearance or opponent as confirmed."
+  },
+  {
+    "name": "Read AFC's divisional restructure announcement",
+    "viewport": "desktop",
+    "covers": [
+      "Flyweight and Featherweight merged into Lightweight",
+      "Jack Campion recognised as Lightweight Champion",
+      "Adrian Capolupo vacates Flyweight title and moves to Heavyweight",
+      "Welterweight renamed Heavyweight",
+      "Divisions page lists only Lightweight and Heavyweight",
+      "Lightweight and Heavyweight rosters reflect fighter moves",
+      "Rankings page reflects updated divisions and champions",
+      "Rohan Mather moved from Lightweight to Heavyweight"
+    ],
+    "description": "Verifies the official news story accurately explains the new AFC division structure and championship changes.",
+    "steps": [
+      "Open the News archive",
+      "Open the AFC divisional restructure announcement",
+      "Verify Flyweight and Featherweight are combined as Lightweight",
+      "Verify Jack Campion is named Lightweight Champion",
+      "Verify Adrian Capolupo has vacated the Flyweight title and moved to Heavyweight",
+      "Verify Welterweight is renamed Heavyweight",
+      "Open Divisions and verify only Lightweight and Heavyweight are displayed",
+      "Verify Jack is Lightweight Champion, Felix is Heavyweight Champion and Adrian is assigned to Heavyweight",
+      "Open Rankings and verify the new division rankings and pound-for-pound list",
+      "Verify Rohan Mather appears in the Heavyweight roster and not in Lightweight"
+    ],
+    "expected": "The news story explains the restructure, the Divisions page shows the updated Lightweight and Heavyweight rosters with Jack and Felix as champions, Adrian is assigned to Heavyweight after vacating Flyweight, Rohan is assigned to Heavyweight only, and Rankings displays the new divisions and champions."
+  }
+]
