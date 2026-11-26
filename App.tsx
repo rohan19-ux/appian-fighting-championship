@@ -260,6 +260,44 @@ type NewsStory = {
 
 const newsStories: NewsStory[] = [
   {
+    slug: 'afc-fight-night-4-mt-price-summit-arena',
+    category: 'BREAKING NEWS · AFC FIGHT NIGHT 4',
+    date: '26 NOVEMBER 2026',
+    title: 'AFC FIGHT NIGHT 4 WILL BE HOSTED AT MT PRICE SUMMIT ARENA',
+    deck: 'AFC confirms its fourth Fight Night will take place at Mt Price Summit Arena, as the Fight Night series continues to grow.',
+    artLabel: 'FIGHT NIGHT 4 CONFIRMED.',
+    artSubline: 'MT PRICE SUMMIT ARENA',
+    sections: [
+      {
+        paragraphs: [
+          'Appian Fighting Championship can confirm the venue for its fourth event: AFC Fight Night 4 will be hosted at Mt Price Summit Arena. The announcement marks the next destination for the promotion as the Fight Night series continues to build.',
+          'Mt Price Summit Arena becomes the newest addition to the list of venues that have hosted AFC competition, following Appian Arena, Silkstone Park and Yerroulbin Reserve.'
+        ]
+      },
+      {
+        heading: 'THE FOURTH FIGHT NIGHT',
+        paragraphs: [
+          'Fight Night 4 will follow AFC Fight Night 3, which takes place at Yerroulbin Reserve in Birchgrove on Saturday 5 December 2026.',
+          'The date, fight card, matchups and event start time for AFC Fight Night 4 have not yet been announced. AFC will release further details as arrangements are confirmed.'
+        ]
+      },
+      {
+        heading: 'NEXT STOP: MT PRICE SUMMIT ARENA',
+        paragraphs: [
+          'With the venue confirmed, attention now turns to preparing the fourth instalment of the Fight Night series. Supporters can expect further updates from AFC as planning continues.',
+          'More announcements will follow as the promotion confirms the event date, fight card and additional details.'
+        ]
+      }
+    ],
+    details: [
+      { label: 'Event', value: 'AFC Fight Night 4' },
+      { label: 'Venue', value: 'Mt Price Summit Arena' },
+      { label: 'Date', value: 'To be announced' },
+      { label: 'Fight card and matchups', value: 'To be announced' },
+      { label: 'Event start', value: 'To be announced' }
+    ]
+  },
+  {
     slug: 'afc-division-restructure-lightweight-heavyweight',
     category: 'BREAKING NEWS · AFC DIVISION RESTRUCTURE',
     date: '20 NOVEMBER 2026',
