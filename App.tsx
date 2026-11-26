@@ -437,7 +437,7 @@ const newsStories: NewsStory[] = [
         heading: 'THANK YOU, BREAKFAST POINT',
         paragraphs: [
           'AFC thanks everyone who attended and supported Fight Night 2 at Silkstone Park. The promotion also recognises the competitors, coaches, officials and everyone who helped bring the event together.',
-          'With the second Fight Night now complete, attention turns to AFC Fight Night 3 at Yerroulbin Reserve, Birchgrove, scheduled for Saturday 28 November 2026. Further event details and fight announcements will follow.'
+          'With the second Fight Night now complete, attention turns to AFC Fight Night 3 at Yerroulbin Reserve, Birchgrove, scheduled for Saturday 5 December 2026. Further event details and fight announcements will follow.'
         ]
       },
       {
@@ -455,7 +455,7 @@ const newsStories: NewsStory[] = [
       { label: 'Official results', value: 'Four results recorded' },
       { label: 'New champions', value: 'Adrian Capolupo · Jack Campion' },
       { label: 'Successful title defence', value: 'Felix Farah · Welterweight' },
-      { label: 'Next event', value: 'AFC Fight Night 3 · Saturday 28 November 2026' }
+      { label: 'Next event', value: 'AFC Fight Night 3 · Saturday 5 December 2026' }
     ]
   },
   {
@@ -469,7 +469,7 @@ const newsStories: NewsStory[] = [
     sections: [
       {
         paragraphs: [
-          'Appian Fighting Championship can confirm the complete four-bout lineup for AFC Fight Night 3, taking place Saturday 28 November 2026 at Yerroulbin Reserve, Birchgrove.',
+          'Appian Fighting Championship can confirm the complete four-bout lineup for AFC Fight Night 3, taking place Saturday 5 December 2026 at Yerroulbin Reserve, Birchgrove.',
           'The revised card features a rare double appearance for Markus Goldschmitt and an Interim Lightweight Championship main event. Each matchup brings a different test, with established experience on one side and unanswered questions on the other.'
         ]
       },
@@ -509,7 +509,7 @@ const newsStories: NewsStory[] = [
       {
         heading: 'FIGHT NIGHT 3 DETAILS',
         paragraphs: [
-          'Saturday 28 November 2026 · Yerroulbin Reserve · Birchgrove, NSW',
+          'Saturday 5 December 2026 · Yerroulbin Reserve · Birchgrove, NSW',
           'Admission: Free · Registration required',
           'Event start time: To be announced.'
         ]
@@ -517,7 +517,7 @@ const newsStories: NewsStory[] = [
     ],
     details: [
       { label: 'Event', value: 'AFC Fight Night 3: Mather vs Carroll' },
-      { label: 'Date', value: 'Saturday 28 November 2026' },
+      { label: 'Date', value: 'Saturday 5 December 2026' },
       { label: 'Venue', value: 'Yerroulbin Reserve · Birchgrove' },
       { label: 'Opening bout', value: 'Markus Goldschmitt vs Constantine Papadopolus' },
       { label: 'Featured bout', value: 'Julian Small vs Luca Dukovski' },
@@ -552,8 +552,8 @@ const newsStories: NewsStory[] = [
       {
         heading: 'NEXT STOP: BIRCHGROVE',
         paragraphs: [
-          'Yerroulbin Reserve in Birchgrove will provide the setting for the promotion’s third Fight Night on Saturday 28 November 2026. Following the first two events, AFC now turns its attention to preparing another card for its competitors and supporters.',
-          'The event is scheduled for Saturday 28 November 2026. The start time and remaining matchups are still to be announced. Supporters can expect further updates from AFC as preparations continue.'
+          'Yerroulbin Reserve in Birchgrove will provide the setting for the promotion’s third Fight Night on Saturday 5 December 2026. Following the first two events, AFC now turns its attention to preparing another card for its competitors and supporters.',
+          'The event is scheduled for Saturday 5 December 2026. The start time and remaining matchups are still to be announced. Supporters can expect further updates from AFC as preparations continue.'
         ]
       },
       {
@@ -567,7 +567,7 @@ const newsStories: NewsStory[] = [
       { label: 'Event', value: 'AFC Fight Night 3' },
       { label: 'Venue', value: 'Yerroulbin Reserve' },
       { label: 'Location', value: 'Birchgrove, NSW' },
-      { label: 'Date', value: 'Saturday 28 November 2026' },
+      { label: 'Date', value: 'Saturday 5 December 2026' },
       { label: 'Championship bouts', value: 'At least one confirmed' },
       { label: 'Fight card', value: 'Further matchups to be announced' },
       { label: 'Start time', value: 'To be announced' }
@@ -670,7 +670,7 @@ const newsStories: NewsStory[] = [
       {
         heading: 'A POSSIBLE FIGHT NIGHT 3 DEBUT',
         paragraphs: [
-          'Cole is likely to make his AFC debut at AFC Fight Night 3 on Saturday 28 November 2026 at Yerroulbin Reserve, Birchgrove.',
+          'Cole is likely to make his AFC debut at AFC Fight Night 3 on Saturday 5 December 2026 at Yerroulbin Reserve, Birchgrove.',
           'His appearance at the event is not yet confirmed. AFC has not announced an opponent or bout position for Cole, and further details will be shared if his debut is finalised.'
         ]
       },
@@ -1306,7 +1306,7 @@ const newsStories: NewsStory[] = [
     ],
     details: [
       { label: 'Event taking effect', value: 'AFC Fight Night 3' },
-      { label: 'Event date', value: 'Saturday 28 November 2026' },
+      { label: 'Event date', value: 'Saturday 5 December 2026' },
       { label: 'Confirmed divisions', value: 'Flyweight and Lightweight' },
       { label: 'Flyweight', value: 'Jack Campion, Adrian Capolupo' },
       { label: 'Lightweight', value: 'Rohan Mather, Felix Farah' },
@@ -1348,7 +1348,7 @@ const newsStories: NewsStory[] = [
       { label: 'Promotion', value: 'Appian Fighting Championship (AFC)' },
       { label: 'New signing', value: 'Byron Barrett' },
       { label: 'First appearance', value: 'AFC Fight Night 3' },
-      { label: 'Event date', value: 'Saturday 28 November 2026' },
+      { label: 'Event date', value: 'Saturday 5 December 2026' },
       { label: 'Competition format', value: 'Weight classes introduced' },
       { label: 'Weight division', value: 'To be announced' },
       { label: 'Fight Night 3 details', value: 'Further information to come' }
@@ -1387,7 +1387,7 @@ const newsStories: NewsStory[] = [
     details: [
       { label: 'Promotion', value: 'Appian Fighting Championship (AFC)' },
       { label: 'Event', value: 'AFC Fight Night 3' },
-      { label: 'Event date', value: 'Saturday 28 November 2026' },
+      { label: 'Event date', value: 'Saturday 5 December 2026' },
       { label: 'Weight classes', value: 'Introduced' },
       { label: 'Round-robin format', value: 'Removed' },
       { label: 'Specific divisions and limits', value: 'To be announced' },
@@ -1939,7 +1939,7 @@ function Home({ go }: { go: (s: string) => void }) {
           </h2>
         </div>
         <div>
-          <p><strong>AFC Fight Night 3: Mather vs Carroll takes place Saturday 28 November 2026 at Yerroulbin Reserve, Birchgrove.</strong></p>
+          <p><strong>AFC Fight Night 3: Mather vs Carroll takes place Saturday 5 December 2026 at Yerroulbin Reserve, Birchgrove.</strong></p>
           <p>Four bouts are confirmed, led by Rohan Mather vs Angus Carroll for the Interim Lightweight Championship. Markus Goldschmitt is scheduled for both the opening and co-main bouts. Event start time is to be announced.</p>
           <button className="text-link" onClick={() => go('event/fight-night-3')}>VIEW FIGHT NIGHT 3 <ArrowRight size={16} /></button>
           <button className="text-link" onClick={() => go('tickets/fight-night-3')}>RESERVE FREE TICKETS <ArrowRight size={16} /></button>
@@ -1999,7 +1999,7 @@ function Events({ go }: { go: (s: string) => void }) {
         <SectionHeading kicker="UP NEXT" title="UPCOMING EVENT." />
         <button className="event-archive-card upcoming-event-card" onClick={() => go('event/fight-night-3')}>
           <div className="archive-art"><span>AFC</span><b>03</b><small>FIGHT NIGHT</small></div>
-          <div className="archive-details"><div className="archive-top"><span className="status-dot">ANNOUNCED</span><span>28 NOVEMBER 2026</span></div><h2>AFC FIGHT NIGHT 3: MATHER VS CARROLL</h2><p>Yerroulbin Reserve · Birchgrove · Interim Lightweight Championship main event.</p><div className="archive-bottom"><span>4 BOUTS CONFIRMED · FREE ADMISSION</span><span className="arrow-circle"><ArrowRight /></span></div></div>
+          <div className="archive-details"><div className="archive-top"><span className="status-dot">ANNOUNCED</span><span>5 DECEMBER 2026</span></div><h2>AFC FIGHT NIGHT 3: MATHER VS CARROLL</h2><p>Yerroulbin Reserve · Birchgrove · Interim Lightweight Championship main event.</p><div className="archive-bottom"><span>4 BOUTS CONFIRMED · FREE ADMISSION</span><span className="arrow-circle"><ArrowRight /></span></div></div>
         </button>
         <div className="archive-ticket-link"><span>ATTENDING FIGHT NIGHT 3?</span><button className="text-link" onClick={() => go('tickets/fight-night-3')}>BOOK FREE TICKETS <ArrowRight size={16} /></button></div>
         <SectionHeading kicker="OFFICIAL EVENT ARCHIVE" title="SELECT AN EVENT." />
@@ -2118,7 +2118,7 @@ function FightNightThreeDetail({ go }: { go: (s: string) => void }) {
           <div>
             <span className="ticket-kicker">FREE GENERAL ADMISSION</span>
             <h2>BE THERE FOR FIGHT NIGHT 3.</h2>
-            <p>Reserve free General Admission for Saturday 28 November 2026 at Yerroulbin Reserve, Birchgrove. Registration is required.</p>
+            <p>Reserve free General Admission for Saturday 5 December 2026 at Yerroulbin Reserve, Birchgrove. Registration is required.</p>
           </div>
           <button className="button button-red" onClick={() => go('tickets/fight-night-3')}>BOOK FREE TICKETS <ArrowRight size={16} /></button>
         </div>
@@ -2167,7 +2167,7 @@ function FightNightThreeDetail({ go }: { go: (s: string) => void }) {
         <SectionHeading kicker="EVENT INFORMATION" title="DATE, VENUE & ADMISSION." />
         <dl className="news-event-details">
           <div><dt>Event</dt><dd>AFC Fight Night 3: Mather vs Carroll</dd></div>
-          <div><dt>Date</dt><dd>Saturday 28 November 2026</dd></div>
+          <div><dt>Date</dt><dd>Saturday 5 December 2026</dd></div>
           <div><dt>Venue</dt><dd>Yerroulbin Reserve</dd></div>
           <div><dt>Location</dt><dd>Birchgrove, NSW</dd></div>
           <div><dt>Event start</dt><dd>To be announced</dd></div>
@@ -2208,7 +2208,7 @@ const ticketEvents: TicketEvent[] = [
   {
     slug: 'fight-night-3',
     name: 'AFC Fight Night 3: Mather vs Carroll',
-    date: 'Saturday 28 November 2026',
+    date: 'Saturday 5 December 2026',
     venue: 'Yerroulbin Reserve',
     location: 'Birchgrove',
     status: 'open',
@@ -2306,7 +2306,7 @@ function Tickets({ initialEventSlug = 'fight-night-3' }: { initialEventSlug?: st
           <div className="ticket-event-art">
             <span>APPIAN FIGHTING CHAMPIONSHIP</span>
             <b>FIGHT NIGHT<br /><em>{selectedEvent.slug === 'fight-night-3' ? '03.' : '02.'}</em></b>
-            <small>{selectedEvent.slug === 'fight-night-3' ? '28.11.2026 · BIRCHGROVE' : '14.11.2026 · BREAKFAST POINT'}</small>
+            <small>{selectedEvent.slug === 'fight-night-3' ? '05.12.2026 · BIRCHGROVE' : '14.11.2026 · BREAKFAST POINT'}</small>
           </div>
           <div className="ticket-event-copy">
             <div className="ticket-event-status"><span /> TICKET BOOKINGS OPEN</div>
@@ -2347,7 +2347,7 @@ function Tickets({ initialEventSlug = 'fight-night-3' }: { initialEventSlug?: st
                   <b>{confirmedTicketType.toUpperCase()}</b>
                 </div>
                 <div className="official-ticket-meta">
-                  <div><small>DATE</small><strong>{selectedEvent.slug === 'fight-night-3' ? 'SAT · 28 NOV 2026' : 'SAT · 14 NOV 2026'}</strong></div>
+                  <div><small>DATE</small><strong>{selectedEvent.slug === 'fight-night-3' ? 'SAT · 05 DEC 2026' : 'SAT · 14 NOV 2026'}</strong></div>
                   <div><small>VENUE</small><strong>{selectedEvent.venue.toUpperCase()}</strong></div>
                   <div><small>LOCATION</small><strong>{selectedEvent.location.toUpperCase()}</strong></div>
                   <div><small>ADMIT</small><strong>{confirmedNames.length} {confirmedNames.length === 1 ? 'PERSON' : 'PEOPLE'}</strong></div>
