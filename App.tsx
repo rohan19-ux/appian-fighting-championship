@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { api } from '@appdeploy/client';
+import { supabase } from './supabaseClient';
 import {
   ArrowDownRight,
   ArrowLeft,
@@ -2249,20 +2249,48 @@ function Tickets({ initialEventSlug = 'fight-night-3' }: { initialEventSlug?: st
     setSubmitting(true);
     try {
       const names = attendeeNames.slice(0, count).map(name => name.trim());
-      const response = await api.post('/api/ticket-bookings', {
-        eventSlug,
+      if (eventSlug !== 'fight-night-3') {
+        setErrorMessage('Fight Night 2 is completed and ticket registration is closed. Choose an available AFC event.');
+        return;
+      }
+      if (ticketType !== 'general-admission' || accommodation) {
+        setErrorMessage('Fight Night 3 offers General Admission only, with no accommodation add-ons.');
+        return;
+      }
+      if (names.some(name => name.length < 2 || name.length > 100)) {
+        setErrorMessage('Each attendee name must be between 2 and 100 characters.');
+        return;
+      }
+      const suffix = `${Date.now().toString(36).toUpperCase()}-${Math.random().toString(36).slice(2, 7).toUpperCase()}`;
+      const bookingReference = `AFC-FN3-${suffix}`;
+      const ticketNumber = `DEMO-03-${suffix}`;
+      const selected = ticketEvents.find(item => item.slug === eventSlug)!;
+      const { error: insertError } = await supabase.from('ticket_bookings').insert({
+        registration_type: 'demo',
+        booking_reference: bookingReference,
+        ticket_number: ticketNumber,
+        event_slug: selected.slug,
+        event_name: selected.name,
+        event_date: selected.date,
+        venue: selected.venue,
+        location: selected.location,
         email: email.trim(),
         quantity: count,
-        ticketType,
-        accommodation,
-        attendeeNames: names,
+        ticket_type: 'general-admission',
+        ticket_price: 0,
+        accommodation: false,
+        accommodation_hotel: null,
+        accommodation_price: 0,
+        total_amount: 0,
+        attendee_names: names,
       });
-      setBookingReference(response.data.bookingReference);
-      setTicketNumber(response.data.ticketNumber);
+      if (insertError) throw insertError;
+      setBookingReference(bookingReference);
+      setTicketNumber(ticketNumber);
       setConfirmedNames(names);
       setConfirmedTicketType(ticketType === 'hospitality' ? 'Hospitality' : 'General Admission');
       setConfirmedAccommodation(accommodation);
-      setConfirmedTotal(response.data.totalAmount);
+      setConfirmedTotal(0);
     } catch {
       setErrorMessage('We could not save your reservation. Please check each attendee name and try again.');
     } finally {
